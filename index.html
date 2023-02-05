@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3XRDPJ6WKG"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-3XRDPJ6WKG');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Marjan Stojanovski</title>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Primary Meta Tags -->
+    <title>Marjan Stojanovski - Front End Developer</title>
+    <meta name="title" content="Front-End Developer">
+    <meta name="description" content="Hello, i'm Marjan - ront End Developer">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://marjanstojanovski.com/">
+    <meta property="og:title" content="Hello,i'm Marjan - Front-End Developer">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://marjanstojanovski.com/img/screenshot.png">
+    
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body class="dark-mode">
@@ -16,7 +36,10 @@
             <li><a href="index.html#about">About Me</a></li>
             <li><a href="index.html#portfolio">My Portfolio</a></li>
         </ul>
-        <a class="light" href="#">Light Version</a>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+            <label class="custom-control-label" for="darkSwitch"></label>
+        </div>
     </div>
     <div class="wrapper">
         <div id="main">
@@ -36,16 +59,16 @@
             <div class="about-me">
                 <h1><span>About</span>Me</h1>
                 <hr>
-                <h2>After discovering my passion for web development, I couldn’t get enough. I made websites for friends and family, interned with a local business, and hired myself out as a freelancer. I’m looking forward to bringing that passion to a full-time role. </h2>
-                <div>
-                    <a href="Marjan Stojanovski Resume.pdf" target="_blank" class="resume">RESUME<i class="fas fa-file-download" style="position:relative; left:17px; bottom:14px; font-size:12px;"></i></a>
+                <p>After discovering my passion for web development, I couldn’t get enough. I made websites for friends and family, interned with a local business, and hired myself out as a freelancer. I’m looking forward to bringing that passion to a full-time role. </p>
+                <div class="resume">
+                    <a href="Marjan Stojanovski Resume.pdf" target="_blank" class="resume-btn">RESUME<i class="fas fa-file-download" style="position:relative; left:17px; bottom:14px; font-size:12px;"></i></a>
                 </div>
                 <h2 class="technologies">Technologies</h2>
                 <div class="logos">
                     <div class="html"><figure><img src="img/html.png"></figure></div>
                     <div class="css"><figure><img src="img/css.png"></figure></div>
                     <div class="javascript"><figure><img src="img/javascript.png"></figure></div>
-                    <div class="jquery"><figure><img src="img/jquery.jpg"></figure></div>
+                    <!-- <div class="jquery"><figure><img src="img/jquery.jpg"></figure></div> -->
                     <div class="sass"><figure><img src="img/sass.png"></figure></div>
                     <div class="webpack"><figure><img src="img/webpack.png"></figure></div>
                 </div>
@@ -61,26 +84,50 @@
                 <a href="https://tabellarius.org" target="_blank">
                 <img src="img/tabellarius-min.png" class="image">
                 <div class="title">
-                    <p class="text">Tabellarius<br>Wordpress,HTML,CSS</p>
+                    <p class="text">Tabellarius<br>HTML,CSS,Worpdress</p>
                 </div>
                 </a>
             </div>
-            <div class="galactic-wizards">
-                <a href="https://galacticwizards.com" target="_blank">
-                    <img src="img/marketing-min.jpg" class="image">
+            <div class="breaking-bad">
+                <a href="https://breakind-bad.netlify.app/" target="_blank">
+                    <img src="img/breaking_bad_vector_by_akyanym.jpg" class="image">
                     <div class="title">
-                        <p class="text">Galactic Wizards<br>Wordpress,HTML,CSS</p>
+                        <p class="text">Breaking Bad Characters<br>HTML,CSS,Javascript</p>
                     </div>
                 </a>
             </div>
-            <div class="rock-paper-scissors">
+            <div class="momentum">
+                <a href="https://momentum-landing-page.netlify.app/" target="_blank">
+                    <img src="img/momentum.png" class="image">
+                    <div class="title">
+                        <p class="text">Momentum<br>HTML 5,CSS 3,Bootstrap 5</p>
+                    </div>
+                </a>
+            </div>
+            <div class="usatechreport">
+                <a href="https://usatechreport.com" target="_blank">
+                    <img src="img/marketing-min.jpg" class="image">
+                    <div class="title">
+                        <p class="text">USA Tech Report<br>HTML,CSS,Wordpress</p>
+                    </div>
+                </a>
+            </div>
+            <!-- <div class="njlawyers">
+                <a href="https://njlawyers.com.au" target="_blank">
+                    <img src="img/njlawyers.jpg" class="image">
+                    <div class="title">
+                        <p class="text">NJ Lawyers<br>HTML,CSS,Wordpress</p>
+                    </div>
+                </a>
+            </div> -->
+            <!-- <div class="rock-paper-scissors">
                 <a href="https://maci-kb24.github.io/rock-paper-scissors/" target="_blank">
-                    <img src="img/Webp.net-resizeimage.png" class="image">
+                    <img src="img/rock_paper_scissors.png" class="image">
                     <div class="title">
                         <p class="text">Rock Paper Scissors<br>HTML,CSS,Javascript</p>
                     </div>
                 </a>
-            </div>
+            </div> -->
         </div>
     </div>
     <div id="footer">
@@ -89,7 +136,6 @@
             <p>Skopje, Macedonia</p>
         </div>
         <div class="footer-social">
-            <a href="https://www.facebook.com/marjan.stojanovski.52" target="_blank"><i class="fab fa-facebook fa-1x"></i></a>
             <a href="https://www.linkedin.com/in/marjan-stojanovski/" target="_blank"><i class="fab fa-linkedin fa-1x"></i></a>
             <a href="https://github.com/maci-kb24" target="_blank"><i class="fab fa-github fa-1x"></i></a>
             <a href="https://codepen.io/maci-kb24/" target="_blank"><i class="fab fa-codepen fa-1x"></i></a>
@@ -101,10 +147,9 @@
         </div>
     </div>
     <script src="js/index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
     <script src="https://kit.fontawesome.com/a6c9863b77.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.4.0/lib/darkmode-js.min.js"></script>
+    <script src="js/dark-mode-switch.js"></script>
 </body>
 </html>
