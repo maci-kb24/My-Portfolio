@@ -380,10 +380,10 @@ h5 {
   height: 100%;
   position: relative;
 }
-.momentum:hover .image {
+.figma-land:hover .image {
   opacity: 0.3;
 }
-.momentum:hover .title {
+.figma-land:hover .title {
   opacity: 0.9;
 }
 .tabellarius:hover .image {
