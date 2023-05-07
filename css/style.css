@@ -384,31 +384,26 @@ h5 {
   height: 100%;
   position: relative;
 }
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+}
 .fitness-calc:hover .image {
   opacity: 0.3;
 }
 .fitness-calc:hover .title {
   opacity: 0.9;
 }
-.figma-land:hover .image {
-  opacity: 0.3;
+.juve-app {
+  margin-top: 15px;
 }
-.figma-land:hover .title {
-  opacity: 0.9;
-}
-
 .architecture:hover .image {
   opacity: 0.3;
 }
 .architecture:hover .title {
   opacity: 0.9;
 }
-.saas-landing:hover .image {
-  opacity: 0.3;
-}
-.saas-landing:hover .title {
-  opacity: 0.9;
-}
+
 .juve-app:hover .image {
   opacity: 0.3;
 }
