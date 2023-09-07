@@ -397,6 +397,9 @@ h5 {
 .juve-app {
   margin-top: 15px;
 }
+.nike-lp {
+  margin-top: 15px;
+}
 .architecture:hover .image {
   opacity: 0.3;
 }
@@ -408,6 +411,12 @@ h5 {
   opacity: 0.3;
 }
 .juve-app:hover .title {
+  opacity: 0.9;
+}
+.nike-lp:hover .image {
+  opacity: 0.3;
+}
+.nike-lp:hover .title {
   opacity: 0.9;
 }
 .text {
