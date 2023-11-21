@@ -337,13 +337,17 @@ h5 {
 .sass,
 .bootstrap,
 .vite,
-.vue,
+.react,
 .vuetify,
 .tailwind {
   height: 100%;
   padding: 0px 15px;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+}
+
+.logos .tooltiptext {
+  color:white;
 }
 
 .logos > div:hover {
