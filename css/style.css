@@ -404,10 +404,10 @@ h5 {
 .nike-lp {
   margin-top: 15px;
 }
-.architecture:hover .image {
+.imagecropper:hover .image {
   opacity: 0.3;
 }
-.architecture:hover .title {
+.imagecropper:hover .title {
   opacity: 0.9;
 }
 
