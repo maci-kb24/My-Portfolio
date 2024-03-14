@@ -307,9 +307,9 @@ h5 {
   padding-top: 80px;
 }
 
-#about .about-me span {
+/* #about .about-me span {
   color: #ea0026;
-}
+} */
 
 #about .about-me hr {
   margin: 20px 0px;
@@ -342,8 +342,8 @@ h5 {
 .tailwind {
   height: 100%;
   padding: 0px 15px;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%); */
+  /* filter: grayscale(100%); */
 }
 
 .logos .tooltiptext {
